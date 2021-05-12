@@ -3,6 +3,7 @@
 
 from GetValue import getValue
 
+#Class IP contains conversion methods and an IP input method
 class IP:
 
     def __init__(self):
@@ -85,6 +86,8 @@ class IP:
         self.intToBin()
         return(self.ip)
 
+
+# Menu contains a cycled menu using the methods found in GetValue.py
 def menu():
     converter=IP()
     option=0
